@@ -159,3 +159,122 @@ footer {
 .socialmedia img {
     width: 28px;
 }
+
+/* CONTACT PAGE STYLES */
+
+/* Company Info Section */
+.company-info {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.company-info h1 {
+    font-family: var(--heading-font);
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.company-info p {
+    margin: 5px 0;
+    font-size: 0.95rem;
+}
+
+/* Contact Container */
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.map-section {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.map-section iframe {
+    border: none;
+    border-radius: 8px;
+}
+
+/* Contact Form */
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: var(--body-font);
+}
+
+.contact-form fieldset {
+    border: none;
+    padding: 0;
+}
+
+.contact-form legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-form fieldset label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+.contact-form button {
+    padding: 12px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Employee Section */
+.employee-section h2 {
+    text-align: center;
+    margin: 40px 0 30px;
+    font-family: var(--heading-font);
+}
+
+.employee-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    text-align: center;
+}
+
+.employee-grid figure {
+    position: relative;
+}
+
+.employee-grid img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.employee-grid figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}

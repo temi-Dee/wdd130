@@ -104,6 +104,12 @@ main {
     align-items: center;
 }
 
+.hero-article h2{
+text-align: center;
+    margin-bottom: 20px;
+    font-family: var(--heading-font);
+}
+
 .hero-article img {
     width: 150px;
     border-radius: 8px;
